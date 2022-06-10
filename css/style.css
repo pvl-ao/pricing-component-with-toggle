@@ -121,7 +121,7 @@ input:checked + .slider:before {
   align-items: center;
   gap: 2rem;
   width: fit-content;
-  margin-bottom: 8rem;
+  margin-bottom: 6.2rem;
   color: #b3b5c6;
   font-size: 1.6rem;
 }
@@ -206,7 +206,7 @@ input:checked + .slider:before {
   background: #fff;
   color: #8484de;
 }
-@media (min-width: 68.75rem) and (min-height: 51.25rem) {
+@media (min-width: 68.75rem) and (min-height: 49rem) {
   html {
     min-height: 100%;
     display: flex;
@@ -244,7 +244,7 @@ input:checked + .slider:before {
     margin: 0 2.4rem;
   }
 }
-@media (min-width: 68.75rem) and (max-height: 51.1875rem) {
+@media (min-width: 68.75rem) and (max-height: 48.9375rem) {
   .plan-card {
     width: 350px;
   }
