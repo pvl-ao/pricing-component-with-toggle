@@ -1,0 +1,31 @@
+/* (4K 100% scale) 3840px x 2160px = 3840px x 2010px (viewport in Chrome with bookmarks bar) */
+// 3776px x 1920px
+@media (min-width: 236rem) and (min-height: 120rem) {
+  html {
+    font-size: 106.25%;
+  }
+}
+
+/* (4K 125% scale) 3072px x 1728px = 3072px x 1578px (viewport in Chrome with bookmarks bar) */
+// 2976px x 1504px
+@media (min-width: 186rem) and (max-width: 235.5rem) and (min-height: 94rem) and (max-height: 119.5rem) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+/* (1440p 100% scale) 2560px x 1440px = 2560px x 1290px (viewport in Chrome with bookmarks bar) */
+// 2496px x 1200px
+@media (min-width: 156rem) and (max-width: 185.5rem) and (min-height: 75rem) and (max-height: 93.5rem) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* (4K 175% scale) 2195px x 1235px = 2195px x 1085px (viewport in Chrome with bookmarks bar) */
+// 2144px x 1024px
+@media (min-width: 134rem) and (max-width: 155.5rem) and (min-height: 74.5rem) and (max-height: 93.5rem) {
+  html {
+    font-size: 68.75%;
+  }
+}
