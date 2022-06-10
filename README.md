@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/pvl-ao/pricing-component-with-toggle]
 - Live Site URL: [https://pricing-component-with-toggle-2022.netlify.app/]
 
 ### Built with
