@@ -218,6 +218,9 @@ input:checked + .slider:before {
     align-items: center;
     justify-content: center;
   }
+  .pricing {
+    margin: 0 2.4rem;
+  }
   .plan-card {
     width: 35rem;
   }
