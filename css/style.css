@@ -68,7 +68,7 @@ body {
   width: fit-content;
   margin-bottom: 4rem;
   font-size: 3.4rem;
-  color: #494c5f;
+   color: hsl(233, 13%, 49%);
 }
 .switch {
   position: relative;
