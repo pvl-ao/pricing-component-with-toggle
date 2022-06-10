@@ -150,8 +150,8 @@ input:checked + .slider:before {
   color: #6d708d;
 }
 .plan-card .price-tag {
-  height: 8.4rem;
-  width: 20.6rem;
+  height: fit-content;
+  width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -178,17 +178,17 @@ input:checked + .slider:before {
 .plan-card button:active {
   transform: scale(0.95);
 }
-.plan-card hr {
-  background-color: #b3b5c6;
-  height: 1px;
-  width: 27.2rem;
-}
 .plan-card .plan-features {
   font-size: 1.6rem;
   color: #6d708d;
 }
 .plan-card .plan-features li {
-  margin: 1.6rem 0;
+  border-top: 1px solid #b3b5c6;
+  padding: 1.6rem 0;
+  width: 27.2rem;
+}
+.plan-card .plan-features li:nth-child(3) {
+  border-bottom: 1px solid #b3b5c6;
 }
 .professional-plan-card {
   background: linear-gradient(#a3a8f0, #696fdd);
@@ -224,8 +224,8 @@ input:checked + .slider:before {
   .plan-card button {
     width: 28.6rem;
   }
-  .plan-card hr {
-    width: 28.6rem;
+  .plan-card li {
+    width: 29.4rem;
   }
   .pricing-components {
     flex-direction: row;
@@ -251,8 +251,8 @@ input:checked + .slider:before {
   .plan-card button {
     width: 28.6rem;
   }
-  .plan-card hr {
-    width: 28.6rem;
+  .plan-card li {
+    width: 29.4rem;
   }
   .pricing-components {
     flex-direction: row;
